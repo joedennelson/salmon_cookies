@@ -1,6 +1,6 @@
 
 
-* {
+body{
 
 
     color: salmon;
@@ -9,8 +9,8 @@
     font-family: 'Helvetica', sans-serif;
    
    
-    /*outline: 1px dotted green;*/
-   
+   outline: 1px solid green; 
+  
    
    }
    
