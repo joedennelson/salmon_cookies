@@ -1,9 +1,20 @@
+
+
+
+* {
+
+
+    color: salmon;
+   
+   
+    font-family: 'Helvetica', sans-serice
 * {
 
 
 
 
     font-family: 'Helvetica', sans-serif;gr
+
    
    
     /*outline: 1px dotted green;*/
@@ -16,11 +27,16 @@
    
    
    
+  
+   li {
    
+   
+    color: #777;
    body {
    
    
       background-color: black;
+     
    
    
    }
@@ -36,6 +52,9 @@
    
     font-family: 'Righteous', cursive;
    
+   
+
+   }
    
     color: salmon;
    
