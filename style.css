@@ -2,6 +2,8 @@
 
 
 * {
+body{
+
 
 
     color: salmon;
@@ -17,8 +19,8 @@
 
    
    
-    /*outline: 1px dotted green;*/
-   
+   outline: 1px solid green; 
+  
    
    }
    

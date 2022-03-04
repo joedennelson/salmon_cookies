@@ -1,6 +1,8 @@
 
 
 
+
+
 'use strict';
 
 
@@ -166,8 +168,6 @@ var seattle = {
 
 
 
-
-
 var tokyo = {
 
     LocationName: 'Tokyo',
@@ -268,6 +268,33 @@ var paris = {
 var lima = { 
     
 };
+=======
+var tokyo = { };
+
+
+
+
+
+
+
+var dubai = { };
+
+
+
+
+
+
+
+var paris = { };
+
+
+
+
+
+
+
+var lima = { };
+
 
 
 
@@ -316,5 +343,6 @@ var allShops = [];
 
 
 })();
+
 
 
