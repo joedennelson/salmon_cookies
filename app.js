@@ -1,3 +1,8 @@
+
+
+
+
+
 'use strict';
 
 
@@ -163,8 +168,107 @@ var seattle = {
 
 
 
+var tokyo = {
+
+    LocationName: 'Tokyo',
+
+    minCustomersPerHour: 24,
+
+    maxCustomersPerHour: 72,
 
 
+    avgCookiesPerSale: 4.3,
+
+    customersEachHour: [],
+
+    cookiesEachHour: [],
+
+    totalDailyCookies: 0,
+
+    calcCustomersEachHour: function () {
+
+        for (var i=0; i < hours,length; i++) {
+
+            this.customersEachHour.push(random(this.minCustomersPerHour, this.maxCustomersPerHour));
+        }
+    }
+
+
+ };
+
+
+
+
+
+
+
+var dubai = { 
+
+LocationName: dubai 'dubai',
+
+minCustomersPerHour: 37,
+
+maxCustomersPerHour: 54,
+
+avgCookiesPerSale: 6.1
+
+customersEachHour: [],
+
+cookiesEachHour: [],
+
+totalDailyCookies: 0,
+
+calcCustomersEachHour: function () {
+
+    for (var i=0; i < hours, length i++) {
+
+        this.customersEachHour.push(random(this.minCustomersPerHour, this.maxCustomersPerHour));
+    }
+}
+
+
+};
+
+
+
+
+
+
+var paris = { 
+   
+    LocationName: paris 'paris',
+
+    minCustomersPerHour: 11,
+
+    maxCustomersPerHour: 32,
+
+    avgCookiesPerSale: 2.3,
+
+    customersEachHour: [],
+
+    cookiesEachHour: [],
+
+    totalDailyCookies: 0,
+
+    calcCustomersEachHour: function () {
+
+    }
+
+
+};
+
+
+
+
+
+
+
+
+
+var lima = { 
+    
+};
+=======
 var tokyo = { };
 
 
@@ -190,6 +294,7 @@ var paris = { };
 
 
 var lima = { };
+
 
 
 
@@ -238,4 +343,6 @@ var allShops = [];
 
 
 })();
+
+
 
